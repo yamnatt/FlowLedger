@@ -1,6 +1,6 @@
+import 'package:bastard/main_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:bastard/login_page.dart';
 
 
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage(),
+      home: MainPage(),
     );
   }
 }
